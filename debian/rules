@@ -1,0 +1,20 @@
+#!/usr/bin/make -f
+
+export DEB_BUILD_MAINT_OPTIONS = hardening=+all
+
+%:
+	dh $@
+
+override_dh_auto_configure:
+	dh_auto_configure -- \
+		--enable-textport=yes \
+		--disable-ssl
+
+override_dh_auto_install:
+	dh_auto_install
+	install -d debian/tmp/etc/gftp
+	cd debian/tmp && mv usr/share/gftp/gftprc etc/gftp
+	cd debian/tmp && mv usr/share/gftp/bookmarks etc/gftp
+	ln -s /etc/gftp/gftprc $(CURDIR)/debian/tmp/usr/share/gftp/gftprc
+	ln -s /etc/gftp/bookmarks $(CURDIR)/debian/tmp/usr/share/gftp/bookmarks
+	rm -Rf $(CURDIR)/debian/tmp/usr/share/doc/gftp/COPYING

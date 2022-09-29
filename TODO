@@ -1,0 +1,21 @@
+This is a list of some of the things I plan to work on for future releases
+of gFTP. If there is something you feel should be included in a future
+version of gFTP, let us know.
+
+* SITE command - give option to not specify SITE
+
+* I need to be able to send an event from the core library to the presentation
+  layer to have it ask the user a question. I need this for the SSL layer so 
+  that if an unknown certificate authority signed the certificate, the user
+  can be prompted whether or not to accept it. Also, it would be handy to 
+  prompt the user for their password if a bad password was entered. 
+* Support tabbed interface in GTK+ port
+* Be able to save the state of the transfer queue. Be able to pause transfers.
+* -d command line, check if it's a file first, if so download. If not, grab directory
+* Playing sounds after certain events or calling external program
+* Recursive directory compares
+* Make it execute a program on a url (say rpm -qpi ftp://site.com/file.rpm)
+* Add registered file extensions to options dialog
+* Add support for SRP protocol (http://srp.stanford.edu/srp)
+* Add support for DAV protocol
+* Add support for rsync protocol

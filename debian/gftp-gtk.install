@@ -1,0 +1,5 @@
+usr/bin/gftp-gtk
+usr/share/gftp/*.xpm
+usr/share/applications/gftp.desktop
+usr/share/gftp/gftp.png
+usr/share/icons/hicolor/*

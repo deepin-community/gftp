@@ -1,0 +1,14 @@
+Author: Cleto Martín <cleto.martin@gmail.com>
+Description: Using new debhelper and remove lintian warning about desktop file
+Forwarded: not-needed
+--- a/docs/gftp.desktop
++++ b/docs/gftp.desktop
+@@ -4,7 +4,7 @@
+ Comment=Download and upload files using multiple file transfer protocols
+ Comment[fr]=Télécharge des fichiers en utilisant le protocole FTP
+ GenericName=gFTP
+-Exec=gftp
++Exec=gftp-gtk
+ Terminal=false
+ Type=Application
+ Icon=gftp.png

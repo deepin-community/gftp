@@ -1,0 +1,39 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Author: Brian Masney <masneyb@gftp.org>
+Source: https://github.com/masneyb/gftp
+Upstream-Name: gftp
+
+Files: *
+Copyright: © 1998-2009 Brian Masney <masney@gftp.org>
+           © 2020 wdlkmpx
+License: GPL-2+
+
+Files: debian/*
+Copyright: © 1999 Martin Schulze <joey@finlandia.infodrom.north.de>
+           © 1999 Brian E. Ermovick <talon@debian.org>
+           © 1999-2001 Josip Rodin <jrodin@jagor.srce.hr>
+           © 2001-2003 Aurelien Beaujean <beaujean@efrei.fr>
+           © 2003-2006 Aurelien Jarno <aurel32@debian.org>
+           © 2009 Xavier Oswald <xoswald@debian.org>
+           © 2011-2012 Cleto Martín <cleto.martin@gmail.com>
+           © 2020 Andreas Rönnquist <gusnan@debian.org>
+License: GPL-2+
+
+License: GPL-2+
+    This package is free software; you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation; either version 2 of the License, or
+    (at your option) any later version.
+    .
+    This package is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+    .
+    You should have received a copy of the GNU General Public License
+    along with this package; if not, write to the Free Software
+    Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301 USA
+    .
+    On Debian systems, the complete text of the GNU General
+    Public License can be found in `/usr/share/common-licenses/GPL-2'.
+

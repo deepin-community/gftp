@@ -1,0 +1,167 @@
+# gFTP Bookmarks. Warning: Any comments that you add to this file WILL be
+# overwritten
+# Note: The passwords contained inside this file are scrambled. This algorithm
+# is not secure. This is to avoid your password being easily remembered by
+# someone standing over your shoulder while you're editing this file. Prior to
+# this, all passwords were stored in plaintext.
+
+[BSD Sites/FreeBSD]
+hostname=ftp.freebsd.org
+port=21
+protocol=FTP
+remote directory=/pub/FreeBSD
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[BSD Sites/NetBSD]
+hostname=ftp.netbsd.org
+port=21
+protocol=FTP
+remote directory=/pub
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[BSD Sites/OpenBSD]
+hostname=ftp.bit.nl
+port=21
+protocol=FTP
+remote directory=/OpenBSD
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Linux Kernel/Kernel - Mirror Service]
+hostname=mirrorservice.org
+port=21
+protocol=FTP
+remote directory=/sites/ftp.kernel.org/pub/linux/kernel
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Linux Kernel/Kernel - Host Europe]
+hostname=ftp.hosteurope.de
+port=21
+protocol=FTP
+remote directory=/mirror/ftp.kernel.org/pub/linux/kernel
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Linux Kernel/Kernel - Free FR]
+hostname=ftp.free.fr
+port=21
+protocol=FTP
+remote directory=/mirrors/ftp.kernel.org/linux/kernel/
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[General Sites/Nluug]
+hostname=ftp.nluug.nl
+port=21
+protocol=FTP
+remote directory=/pub
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[General Sites/Mirror Service]
+hostname=mirrorservice.org
+port=21
+protocol=FTP
+remote directory=/sites
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[General Sites/GNU Archive]
+hostname=ftp.gnu.org
+port=21
+protocol=FTP
+remote directory=/pub/gnu
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Red Hat Sites/RH Main]
+hostname=ftp.redhat.com
+port=21
+protocol=FTP
+remote directory=/pub
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Slackware Sites/slackware.com]
+hostname=ftp.slackware.com
+port=21
+protocol=FTP
+remote directory=/pub/slackware/slackware
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Slackware Sites/Slackware UK]
+hostname=slackware.uk
+port=21
+protocol=FTP
+remote directory=/
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Debian Sites/Debian]
+hostname=ftp.debian.org
+port=21
+protocol=FTP
+remote directory=/debian
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Porteus Linux/mirror vim.org]
+hostname=ftp.vim.org
+port=21
+protocol=FTP
+remote directory=/pub/os/Linux/distr/porteus
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Porteus Linux/mirror nlugg.nl]
+hostname=ftp.nluug.nl
+port=21
+protocol=FTP
+remote directory=/pub/os/Linux/distr/porteus
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+
+[Porteus Linux/mirror dotsrc.org]
+hostname=mirrors.dotsrc.org
+port=21
+protocol=FTP
+remote directory=/porteus
+local directory=
+username=anonymous
+password=@EMAIL@
+account=
+

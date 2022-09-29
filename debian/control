@@ -1,0 +1,91 @@
+Source: gftp
+Section: net
+Priority: optional
+Maintainer: Andreas Rönnquist <gusnan@debian.org>
+Build-Depends: debhelper-compat (= 13), intltool, libreadline-dev, libgtk2.0-dev (>= 2.0.9), libglib2.0-dev (>= 2.2.0),
+Standards-Version: 4.6.0.1
+Rules-Requires-Root: no
+Homepage: http://www.gftp.org/
+Vcs-Browser: https://salsa.debian.org/debian/gftp
+Vcs-Git: https://salsa.debian.org/debian/gftp.git
+
+Package: gftp
+Architecture: all
+Depends: gftp-gtk (>= ${source:Version}), gftp-text (>= ${source:Version}), ${misc:Depends}
+Description: X/GTK+ and console FTP client (metapackage)
+ gFTP is a multithreaded FTP client, available in two versions:
+  * version for X, written using GLib and GTK+
+  * version for the console, using only GLib
+ .
+ This is an upgrade convenience package, it's only useful for depending on.
+
+Package: gftp-gtk
+Architecture: any
+Depends: ${shlibs:Depends}, gftp-common (= ${source:Version}), ${misc:Depends}
+Breaks: gftp-common (<< 2.0.14-1)
+Replaces: gftp-common (<< 2.0.14-1)
+Description: X/GTK+ FTP client
+ gFTP graphical version is a multithreaded FTP client running under X and
+ written using GLib/GTK+.
+ .
+ gFTP features:
+   * simultaneous downloads,
+   * resuming of interrupted file transfers,
+   * file transfer queues,
+   * downloading of entire directories,
+   * FTP and HTTP proxy support,
+   * remote directory caching,
+   * passive and non-passive file transfers,
+   * drag-n-drop support,
+   * bookmarks menu,
+   * support for SSH and SSH2 file transfers,
+   * support FXP transfers,
+   * stop button, and many more features.
+ .
+  Author:   Brian Masney <masneyb@gftp.org>
+
+Package: gftp-text
+Architecture: any
+Depends: ${shlibs:Depends}, gftp-common (= ${source:Version}), ${misc:Depends}
+Description: colored FTP client using GLib
+ gFTP text version is a multithreaded FTP client running under console and
+ written using GLib.
+ .
+ gFTP features:
+   * simultaneous downloads,
+   * resuming of interrupted file transfers,
+   * file transfer queues,
+   * downloading of entire directories,
+   * FTP and HTTP proxy support,
+   * remote directory caching,
+   * passive and non-passive file transfers,
+   * drag-n-drop support,
+   * bookmarks menu,
+   * support for SSH and SSH2 file transfers,
+   * support FXP transferts,
+   * stop button, and many more features.
+ .
+  Author:   Brian Masney <masneyb@gftp.org>
+
+Package: gftp-common
+Architecture: all
+Depends: ${misc:Depends}
+Description: shared files for other gFTP packages
+ gFTP is a multithreaded FTP client. This package contains the locale data
+ used by both gftp-gtk and gftp-text, along with a common manual page.
+ .
+ gFTP features:
+   * simultaneous downloads,
+   * resuming of interrupted file transfers,
+   * file transfer queues,
+   * downloading of entire directories,
+   * FTP and HTTP proxy support,
+   * remote directory caching,
+   * passive and non-passive file transfers,
+   * drag-n-drop support,
+   * bookmarks menu,
+   * support for SSH and SSH2 file transfers,
+   * support FXP transferts,
+   * stop button, and many more features.
+ .
+  Author:   Brian Masney <masneyb@gftp.org>
